@@ -8,6 +8,8 @@ on:
     branches: ["main"]
   pull_request:
     branches: ["main"]
+  path:
+    - .github/workflows/node.js.yml
 
 jobs:
   building:
